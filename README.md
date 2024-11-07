@@ -21,7 +21,7 @@ Email:bsinshaw@ucmerced.edu
 
 #  Recent Conferences and workshops 
 - 2023 Climate Adaptation Science Academy ‑ Experiential Learning Expedition (CASA ELE) CA Secure Water Future (SWF), Utah (https://securewaterfuture.net/education/climate-adaptation-science-academy)
-- 2nd  State of the Tulare Basin Conference, The Tulare Basin Watershed Network (TBWN), in partnership with UC ANR and SWF Nov 15, 2023 (https://Happeningnext.Com/Event/State-of-the-basin-eid4so58tg1j71)
+- 2nd  State of the Tulare Basin Conference, The Tulare Basin Watershed Network (TBWN), in partnership with UC ANR and SWF Nov 15, 2023 (https://happeningnext.com/event/state-of-the-basin-eid4so58tg1j71)
 - MODFLOW and More 2024: “AI, Global Change, and the Future of Groundwater Modeling” organized by Princeton University  from June 2-5, 2024 (https://igwmc.princeton.edu/modflow/)
 - 3ʳᵈ International Conference Linking Science & Policy: Toward Sustainable Groundwater In Agriculture Foundation Event  San Francisco, CA, June 18 - 20, 2024 (https://ag-groundwater.org/)
 - 2024 State of the Science of Land Repurposing Workshop co-sponsored by UC Merced's Secure Water Future and the California Institute for Water Resources from October 28-29th 2024 (https://sites.google.com/view/science-land-repurposing)
@@ -31,7 +31,7 @@ Email:bsinshaw@ucmerced.edu
   - Chancellor's Fellowship for Inclusive Excellence Award (https://news.ucmerced.edu/news/2022/four-phd-students-awarded-chancellor%E2%80%99s-inclusive-excellence-fellowship)
 
  # Acadamic Contribution 
-  - Google Scholar :https://scholar.google.com/citations?user=3wCm8PwAAAAJ&hl=en
+  - Google Scholar : https://scholar.google.com/citations?user=3wCm8PwAAAAJ&hl=en
   - Research Get : https://www.researchgate.net/profile/Berhanu-Sinshaw
 # Volunteer Activity
  - Environmental Systems Seminar student lead (Fall 2022) 

@@ -34,7 +34,7 @@ Email:bsinshaw@ucmerced.edu
   - Research Get : https://www.researchgate.net/profile/Berhanu-Sinshaw
 # Volunteer Activity
  - Environmental Systems Seminar student lead (Fall 2022) 
- # Lab 
+ # Lab Website 
 - UCM Forest Ecohydrology & Watershed Systems (FEWS) Lab: https://ecohydrology.ucmerced.edu/
 - Secure water project (https://securewaterfuture.net/)
 # Reference

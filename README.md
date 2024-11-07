@@ -7,7 +7,7 @@ I'm a Ph.D. Student and Graduate Research Assistant at the University of Califor
 # Previous experience 
 - University of Gondar  (2016 – 2022):  Assistance lecture & Lecture 
 - Dilla University (2014- 2016):  Assistance lecture 
-- Bahir Dar University (2018-2022): MS student & Hydrological Data collection Advisor for PIRE citizen science project
+- Bahir Dar University (2018-2022): MS student & Hydrological Data collection Advisor for PIRE citizen science project (https://pire.engr.uconn.edu/)
 
 # Conferences and workshops attended 
 

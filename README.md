@@ -33,7 +33,7 @@ Email:bsinshaw@ucmerced.edu
   - Google Scholar :https://scholar.google.com/citations?user=3wCm8PwAAAAJ&hl=en
   - Research Get : https://www.researchgate.net/profile/Berhanu-Sinshaw
 # Volunteer Activity
- - Environmental Systems Seminar studnet lead (Fall 2022) 
+ - Environmental Systems Seminar student lead (Fall 2022) 
  # Lab 
 - UCM Forest Ecohydrology & Watershed Systems (FEWS) Lab: https://ecohydrology.ucmerced.edu/
 - Secure water project (https://securewaterfuture.net/)

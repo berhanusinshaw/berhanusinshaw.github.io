@@ -27,7 +27,7 @@ Email:bsinshaw@ucmerced.edu
 - 2024 State of the Science of Land Repurposing Workshop co-sponsored by UC Merced's Secure Water Future and the California Institute for Water Resources from October 28-29th 2024 (https://sites.google.com/view/science-land-repurposing)
 
  # Honor and Award
-  - Ucniveristy of California  merced  2024 Summer Fellowship Award 
+  - Univeristy of California  Merced  2024 Summer Fellowship Award 
   - Chancellor's Fellowship for Inclusive Excellence Award (https://news.ucmerced.edu/news/2022/four-phd-students-awarded-chancellor%E2%80%99s-inclusive-excellence-fellowship)
 
  # Acadamic Contribution 

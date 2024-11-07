@@ -30,7 +30,9 @@ I'm a Ph.D. Student and Graduate Research Assistant at the University of Califor
    # Volunteer Activity
 
 
-  #  Google Scholar| Research Get
+  # Acadamic Contribution 
+  - Google Scholar :https://scholar.google.com/citations?user=3wCm8PwAAAAJ&hl=en
+  - Research Get : https://www.researchgate.net/profile/Berhanu-Sinshaw
   
   
   

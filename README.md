@@ -26,7 +26,8 @@ I'm a Ph.D. Student and Graduate Research Assistant at the University of Califor
 # Volunteer Activity
  - Environmental Systems Seminar studnet lead (Fall 2022) 
 # Current Project
-- Secure water project (https://securewaterfuture.net/) 
+- Secure water project (https://securewaterfuture.net/)
+- FEWs Lab website : https://ecohydrology.ucmerced.edu/
 # Reference
   - Prof. Safeeq Khan (Associate  Professor of Hydrology), Civil & Environmental Engineering, University of California, Merced
   

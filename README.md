@@ -21,13 +21,13 @@ I'm a Ph.D. Student and Graduate Research Assistant at the University of Califor
   - Ucniveristy of California  merced  2024 Summer Fellowship Award 
   - Chancellor's Fellowship for Inclusive Excellence Award (https://news.ucmerced.edu/news/2022/four-phd-students-awarded-chancellor%E2%80%99s-inclusive-excellence-fellowship)
 
-# Volunteer Activity
- - Environmental Systems Seminar lead (Fall 2022) Enviromnetal
-
  # Acadamic Contribution 
   - Google Scholar :https://scholar.google.com/citations?user=3wCm8PwAAAAJ&hl=en
   - Research Get : https://www.researchgate.net/profile/Berhanu-Sinshaw
- 
+# Volunteer Activity
+ - Environmental Systems Seminar lead (Fall 2022) Enviromnetal
+Current Project
+- Secure water project (https://securewaterfuture.net/) 
 # Reference
   - Prof. Safeeq Khan (Associate  Professor of Hydrology), Civil & Environmental Engineering, University of California, Merced
   

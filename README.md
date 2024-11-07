@@ -29,7 +29,7 @@ I'm a Ph.D. Student and Graduate Research Assistant at the University of Califor
   - Research Get : https://www.researchgate.net/profile/Berhanu-Sinshaw
  
 # Reference
-  - Prof. Safeeq Khan, Ph.D., (Associate  Professor of Hydrology), Civil & Environmental Engineering, University of California, Merced
+  - Prof. Safeeq Khan (Associate  Professor of Hydrology), Civil & Environmental Engineering, University of California, Merced
   
   
   

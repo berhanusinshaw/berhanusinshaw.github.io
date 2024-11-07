@@ -18,11 +18,11 @@ I'm a Ph.D. Student and Graduate Research Assistant at the University of Califor
 - 2024 State of the Science of Land Repurposing Workshop co-sponsored by UC Merced's Secure Water Future and the California Institute for Water Resources from October 28-29th 2024 (https://sites.google.com/view/science-land-repurposing)
 
  # Honor and Award
-  - ES Summer Fellowship Award 2024
-  - Chancellor's Fellowship for Inclusive Excellence (https://news.ucmerced.edu/news/2022/four-phd-students-awarded-chancellor%E2%80%99s-inclusive-excellence-fellowship)
+  - Ucniveristy of California  merced  2024 Summer Fellowship Award 
+  - Chancellor's Fellowship for Inclusive Excellence Award (https://news.ucmerced.edu/news/2022/four-phd-students-awarded-chancellor%E2%80%99s-inclusive-excellence-fellowship)
 
 # Volunteer Activity
-
+ - Environmental Systems Seminar lead (Fall 2022) Enviromnetal
 
  # Acadamic Contribution 
   - Google Scholar :https://scholar.google.com/citations?user=3wCm8PwAAAAJ&hl=en

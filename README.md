@@ -9,6 +9,15 @@ I'm a Ph.D. Student and Graduate Research Assistant at the University of Califor
 - Dilla University (2014- 2016):  Assistance lecture 
 - Bahir Dar University (2018-2022): MS student & Hydrological Data collection Advisor for PIRE citizen science project (https://pire.engr.uconn.edu/)
 
+# Research Interests
+     - Integrated Hydrologic Modeling
+     - Climate Change
+     - Land Use Change
+     - Ground water Recharge 
+    
+Office: SRE 410-02
+Email:bsinshaw@ucmerced.edu 
+
 #  Recent Conferences and workshops 
 - 2023 Climate Adaptation Science Academy ‑ Experiential Learning Expedition (CASA ELE) CA Secure Water Future (SWF), Utah 
 - 2nd  State of the Tulare Basin Conference, The Tulare Basin Watershed Network (TBWN), in partnership with UC ANR and SWF Nov 15, 2023 (https://Happeningnext.Com/Event/State-of-the-basin-eid4so58tg1j71)

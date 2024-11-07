@@ -25,9 +25,9 @@ I'm a Ph.D. Student and Graduate Research Assistant at the University of Califor
   - Research Get : https://www.researchgate.net/profile/Berhanu-Sinshaw
 # Volunteer Activity
  - Environmental Systems Seminar studnet lead (Fall 2022) 
-# Current Project
+ # Lab 
+- UCM Forest Ecohydrology & Watershed Systems (FEWS) Lab: https://ecohydrology.ucmerced.edu/
 - Secure water project (https://securewaterfuture.net/)
-- FEWs Lab website : https://ecohydrology.ucmerced.edu/
 # Reference
   - Prof. Safeeq Khan (Associate  Professor of Hydrology), Civil & Environmental Engineering, University of California, Merced
   

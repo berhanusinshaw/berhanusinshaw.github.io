@@ -9,12 +9,6 @@ I'm a Ph.D. Student and Graduate Research Assistant at the University of Califor
 - Dilla University (2014- 2016):  Assistance lecture 
 - Bahir Dar University (2018-2022): MS student & Hydrological Data collection Advisor for PIRE citizen science project
 
-
-# Publication 
-
-
-
-
 # Conferences and workshops attended 
 
 - 2023 Climate Adaptation Science Academy ‑ Experiential Learning Expedition (CASA ELE) CA Secure Water Future (SWF), Utah 
@@ -23,16 +17,20 @@ I'm a Ph.D. Student and Graduate Research Assistant at the University of Califor
 - 3ʳᵈ International Conference Linking Science & Policy: Toward Sustainable Groundwater In Agriculture Foundation Event  San Francisco, CA, June 18 - 20, 2024 (https://ag-groundwater.org/)
 - 2024 State of the Science of Land Repurposing Workshop co-sponsored by UC Merced's Secure Water Future and the California Institute for Water Resources from October 28-29th 2024 (https://sites.google.com/view/science-land-repurposing)
 
-   # Honor and Award
+ # Honor and Award
   - ES Summer Fellowship Award 2024
   - Chancellor's Fellowship for Inclusive Excellence (https://news.ucmerced.edu/news/2022/four-phd-students-awarded-chancellor%E2%80%99s-inclusive-excellence-fellowship)
 
-   # Volunteer Activity
+# Volunteer Activity
 
 
-  # Acadamic Contribution 
+ # Acadamic Contribution 
   - Google Scholar :https://scholar.google.com/citations?user=3wCm8PwAAAAJ&hl=en
   - Research Get : https://www.researchgate.net/profile/Berhanu-Sinshaw
+ 
+# Reference
+  - Prof. Safeeq Khan, Ph.D., (Associate  Professor of Hydrology), Civil & Environmental Engineering, University of California, Merced
+  
   
   
   

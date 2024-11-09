@@ -6,7 +6,7 @@ I'm a Ph.D. Student and Graduate Research Assistant at the University of Califor
 - BS (2014)., Water Resources and  Irrigation Management, Wollega Univeristy
 - MS (2018)., Hydraulic and Water Resources Engineering (Major in Engineering Hydrology), Bahir Dar univeristy 
 - PhD (2022)., Water Resources Engineering & Mang’t (course work completed), Bahir Dar Univeristy
-- PhD (2026)., Environmental Systems, University of California Merced
+- PhD (Exp. Summer 2026)., Environmental Systems, University of California Merced
 # Previous experience 
 - University of Gondar  (2016 – 2022):  Assistance lecture & Lecture 
 - Dilla University (2014- 2016):  Assistance lecture 

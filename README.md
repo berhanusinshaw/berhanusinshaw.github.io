@@ -13,7 +13,7 @@ I'm a Ph.D. Student and Graduate Research Assistant at the University of Califor
 - Bahir Dar University (2018-2022): MS student & Hydrological Data collection Advisor for PIRE citizen science project (https://pire.engr.uconn.edu/)
 
 # Research Interests
-     - Integrated Hydrologic Modeling
+     - Integrated Hydrological Modeling
      - Climate Change
      - Land Use Change
      - Ground water Recharge 

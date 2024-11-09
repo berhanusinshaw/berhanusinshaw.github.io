@@ -1,7 +1,5 @@
 
-The website is under development and will commplet soon.....
-
-
+# Website development will Compeleted soon ....
 
 # About Me 
 I'm a Ph.D. Student and Graduate Research Assistant at the University of California Merced, working in the Forest Ecohydrology & Watershed Systems (FEWS) Lab supervised by Professor Safeeq Khan. Passionate Hydrologist & Water Resource researcher dedicated to understanding, protecting, and sustainably managing our precious water resources, with a special emphasis on the Western United States. Utilizing advanced techniques to analyze complex water systems and contribute to innovative solutions for a water-secure future. My research work focuses on Modeling Surface Water and Groundwater Interactions in Endorheic Tulare Basin under a Changing Climate.

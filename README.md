@@ -8,9 +8,11 @@ I'm a Ph.D. Student and Graduate Research Assistant at the University of Califor
 - PhD (2022)., Water Resources Engineering & Mang’t (course work completed), Bahir Dar Univeristy
 - PhD (Exp. Summer 2026)., Environmental Systems, University of California Merced
 # Previous experience 
+
+- Bahir Dar University (2018-2022): MS student & Hydrological Data collection Advisor for PIRE citizen science project (https://pire.engr.uconn.edu/)
 - University of Gondar  (2016 – 2022):  Assistance lecture & Lecture 
 - Dilla University (2014- 2016):  Assistance lecture 
-- Bahir Dar University (2018-2022): MS student & Hydrological Data collection Advisor for PIRE citizen science project (https://pire.engr.uconn.edu/)
+
 
 # Research Interests
      - Integrated Hydrological Modeling

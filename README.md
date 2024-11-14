@@ -45,9 +45,11 @@ Email:bsinshaw@ucmerced.edu
 - UCM Forest Ecohydrology & Watershed Systems (FEWS) Lab: https://ecohydrology.ucmerced.edu/
 - Secure water project (https://securewaterfuture.net/)
 # Reference
-  - Prof. Safeeq Khan (Associate  Professor of Hydrology), Civil & Environmental Engineering, University of California, Merced
-    
+  - Prof. Safeeq Khan (Associate  Professor of Hydrology), Civil & Environmental Engineering, University of California, Merced (Current Adviosr)
     email: msafeeq@ucmerced.edu
+ - Prof. Seifu A. Tilahun, Senior Researcher – Hydrology and Water Resources Management, International Water Management Institute (IWMI), Ghana (Privous Advisor)
+   email: s.tilahun@cgiar.org
+   
   
   
   

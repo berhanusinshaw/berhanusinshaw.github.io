@@ -47,7 +47,7 @@ Email:bsinshaw@ucmerced.edu
 # Reference
   - Prof. Safeeq Khan (Associate  Professor of Hydrology), Civil & Environmental Engineering, University of California, Merced (Current Advisor)
     email: msafeeq@ucmerced.edu
- - Prof. Seifu A. Tilahun, Senior Researcher – Hydrology and Water Resources Management, International Water Management Institute (IWMI), Ghana (Previous Advisor)
+ - Prof. Seifu A. Tilahun (Professor), Senior Researcher – Hydrology and Water Resources Management, International Water Management Institute (IWMI), Ghana (Previous Advisor)
    email: s.tilahun@cgiar.org
    
   

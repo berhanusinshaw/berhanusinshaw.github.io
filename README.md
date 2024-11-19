@@ -33,6 +33,7 @@ Email:bsinshaw@ucmerced.edu
 
 
  # Honor and Award
+  - Fall 2024 PBGA Professional Development Award
   - Univeristy of California  Merced  2024 Summer Fellowship Award 
   - Chancellor's Fellowship for Inclusive Excellence Award (https://news.ucmerced.edu/news/2022/four-phd-students-awarded-chancellor%E2%80%99s-inclusive-excellence-fellowship)
 

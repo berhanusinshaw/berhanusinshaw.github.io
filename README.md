@@ -15,6 +15,7 @@ I'm a Ph.D. Student and Graduate Research Assistant at the University of Califor
 
 
 # Research Interests
+     - Environmental challenges
      - Integrated Hydrological Modeling
      - Climate Change
      - Land Use Change

@@ -1,7 +1,7 @@
 
 # Website development will be Completed soon ....
 # About Me 
-I'm a Ph.D. Candidatend Graduate Research Assistant at the University of California Merced, working in the Forest Ecohydrology & Watershed Systems (FEWS), supervised by Professor Safeeq Khan & professor Joshua Viers. Passionate Hydrologist & Water Resource researcher dedicated to understanding, protecting, and sustainably managing our precious water resources, with a special emphasis on the Western United States. Utilizing advanced techniques to analyze complex water systems and contribute to innovative solutions for a water-secure future. My research work focuses on Modeling Surface Water and Groundwater Interactions in Endorheic Basin under a Changing Climate.
+I'm a Ph.D. Candidate and Graduate Research Assistant at the University of California Merced, working in the Forest Ecohydrology & Watershed Systems (FEWS) Lab, supervised by Professor Safeeq Khan & professor Joshua Viers. Passionate Hydrologist & Water Resource researcher dedicated to understanding, protecting, and sustainably managing our precious water resources, with a special emphasis on the Western United States. Utilizing advanced techniques to analyze complex water systems and contribute to innovative solutions for a water-secure future. My research work focuses on Modeling Surface Water and Groundwater Interactions in Endorheic Basin under a Changing Climate.
 # Educational Background 
 - PhD (2022 - present )., Environmental Systems, University of California Merced
 - PhD (2022)., Water Resources Engineering & Mang’t (course work completed), Bahir Dar Univeristy

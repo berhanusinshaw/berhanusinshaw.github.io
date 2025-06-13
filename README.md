@@ -25,6 +25,12 @@ I'm a Ph.D. Candidate and Graduate Research Assistant at the University of Calif
 Office: SRE 410-02
 Email:bsinshaw@ucmerced.edu 
 
+# Conference/Workshop 
+1.	April 27, 2025 - May 02, 2025, “Modeling Surface Water - Groundwater Interactions in the Tulare Lake Basin, California, USA", European Geosciences Union-General Assembly, Vienna, Austria. Sinshaw, B. (Presenter & Author), Viers, J. H. (Author), Safeeq, M. (Author)
+2.	March 11, 2025, “Modeling Surface Water - Groundwater Interactions in the Tulare Lake Basin, California, USA”, 2025 SNRI Early Career Researcher Lightning Talks”, Sinshaw, B. (Presenter & Author), Viers, J. H. (Author), Safeeq, M. (Author)
+3.	June 18 - 20, 2024, “A Systematic Review on Global Managed Aquifer Recharge: Techniques, Impacts, and Future Implications”, 3ʳᵈ International Conference Linking Science & Policy: Toward Sustainable Groundwater in Agriculture, San Francisco. Sinshaw, B. (Presenter & Author), Viers, J. H. (Author), Safeeq, M. (Author)
+4.	Oct 1, 2024, “Modeling Surface-Groundwater Interaction in California Endorheic Tulare Basin”, UC Merced Environmental Systems Graduate Group retreat. Sinshaw, B. (Presenter & Author), Viers, J. H. (Author), Safeeq, M. (Author)
+
 #  Recent Conferences and workshops 
 - 2024 SWAT Conference, Strasbourg, France (https://swatconference.tamu.edu/#/get-certificates/783)
 - 2024 State of the Science of Land Repurposing Workshop co-sponsored by UC Merced's Secure Water Future and the California Institute for Water Resources from October 28-29th 2024 (https://sites.google.com/view/science-land-repurposing)

@@ -85,11 +85,12 @@ footer a {
 footer a:hover {
   text-decoration: underline;
 }
+
+/* Image styling */
 .intro img {
   max-width: 200px;
   height: auto;
   border-radius: 12px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.2);
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
-

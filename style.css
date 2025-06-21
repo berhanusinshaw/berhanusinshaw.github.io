@@ -2,34 +2,48 @@
 body {
   margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #f4f9f9;
+  background-color: #e0f7fa; /* soft aqua */
   color: #333;
   line-height: 1.6;
 }
 
-/* Header section */
+/* Header with water expert theme */
 header {
-  background-color: #004d40;
+  background: linear-gradient(to right, #006994, #00aaff);
   color: white;
   padding: 30px 20px;
-  text-align: center;
-  border-bottom: 5px solid #009688;
+  border-bottom: 4px solid #00d4ff;
 }
 
-header h1 {
+/* Flex layout for header */
+.header-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.profile-pic {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  object-fit: cover;
+}
+
+.header-text h1 {
   margin: 0;
-  font-size: 2.8rem;
+  font-size: 2.2rem;
 }
 
-header p {
-  margin: 10px 0 20px;
-  font-size: 1.2rem;
-  color: #b2dfdb;
+.header-text p {
+  margin: 5px 0 15px;
+  color: #e0ffff;
+  font-size: 1.1rem;
 }
 
-/* Navigation bar */
 nav {
-  margin-top: 10px;
+  margin-top: 5px;
 }
 
 nav a {
@@ -43,7 +57,7 @@ nav a {
 }
 
 nav a:hover {
-  border-bottom: 2px solid #80cbc4;
+  border-bottom: 2px solid #c0f0ff;
 }
 
 /* Main content */
@@ -84,15 +98,4 @@ footer a {
 
 footer a:hover {
   text-decoration: underline;
-}
-
-/* Image styling */
-.intro img {
-  max-width: 200px;
-  height: auto;
-  border-radius: 12px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
-  margin-bottom: 10px;
-}
-
 }

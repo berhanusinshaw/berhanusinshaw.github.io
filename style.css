@@ -103,18 +103,34 @@ footer a:hover {
   text-decoration: underline;
 }
 
+/* Bottom logo section */
 .bottom-logos {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 30px;
   padding: 20px;
-  background-color: #f0f8ff; /* optional background */
+  background-color: #f0f8ff;
 }
 
 .bottom-logos .logo {
   height: 60px;
   object-fit: contain;
+  transition: transform 0.3s ease;
 }
 
+.bottom-logos .logo:hover {
+  transform: scale(1.05);
+}
 
+/* Responsive design for smaller screens */
+@media (max-width: 600px) {
+  .bottom-logos {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .bottom-logos .logo {
+    height: 50px;
+  }
+}

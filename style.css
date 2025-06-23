@@ -102,3 +102,17 @@ footer a {
 footer a:hover {
   text-decoration: underline;
 }
+
+.bottom-logos {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px 0;
+  background-color: #f5f5f5;
+}
+
+.bottom-logos .logo {
+  height: 60px;
+  object-fit: contain;
+}
+

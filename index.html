@@ -5,6 +5,78 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Home – Berhanu G. Sinshaw</title>
   <link rel="stylesheet" href="style.css" />
+  <style>
+    /* Embedded CSS (can also go in style.css) */
+    .bottom-logos {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 30px;
+      padding: 20px 0;
+      background-color: #f5f5f5;
+    }
+
+    .bottom-logos .logo {
+      height: 60px;
+      object-fit: contain;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #e5e5e5;
+    }
+
+    header {
+      background-color: #003262;
+      color: white;
+      padding: 20px 0;
+    }
+
+    .header-container {
+      max-width: 960px;
+      margin: auto;
+      display: flex;
+      align-items: center;
+      padding: 0 20px;
+    }
+
+    .profile-pic {
+      height: 100px;
+      border-radius: 50%;
+      margin-right: 20px;
+    }
+
+    .header-text h1 {
+      margin: 0;
+      font-size: 24px;
+    }
+
+    nav a {
+      color: white;
+      margin-right: 15px;
+      text-decoration: none;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    main {
+      max-width: 960px;
+      margin: auto;
+      padding: 20px;
+      background-color: white;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #ddd;
+      font-size: 14px;
+    }
+  </style>
 </head>
 <body>
   <header>
@@ -21,13 +93,6 @@
           <a href="blog.html">Blog</a>
           <a href="news.html">News</a>
           <a href="contact.html">Contact</a>
-          
-          <!-- USE ONE OF THESE LINKS BASED ON FILE LOCATION -->
-
-          <!-- If the CV is in a "cv" subfolder -->
-          <!-- <a href="cv/CV_Berhanu_Sinshaw.pdf" target="_blank">CV</a> -->
-
-          <!-- If the CV is in the same folder as index.html -->
           <a href="CV_Berhanu_Sinshaw.pdf" target="_blank">CV</a>
         </nav>
       </div>
@@ -49,21 +114,21 @@
     </p>
   </main>
 
-<div class="bottom-logos">
-  <a href="https://www.ucmerced.edu/" target="_blank">
-    <img src="UCM.png" alt="UC Merced Logo" class="logo" />
-  </a>
-  <a href="https://ecohydrology.ucmerced.edu/" target="_blank">
-    <img src="FEWS.png" alt="FEWS Lab Logo" class="logo" />
-  </a>
-  <a href="https://securewaterfuture.net/" target="_blank">
-    <img src="SWF.jpeg" alt="SWF Project Logo" class="logo" />
-  </a>
-</div>
-
-  
+  <!-- Logos section -->
+  <div class="bottom-logos">
+    <a href="https://www.ucmerced.edu/" target="_blank">
+      <img src="UCM.png" alt="UC Merced Logo" class="logo" />
+    </a>
+    <a href="https://ecohydrology.ucmerced.edu/" target="_blank">
+      <img src="FEWS.png" alt="FEWS Lab Logo" class="logo" />
+    </a>
+    <a href="https://securewaterfuture.net/" target="_blank">
+      <img src="SWF.jpeg" alt="SWF Project Logo" class="logo" />
+    </a>
+  </div>
 
   <footer>
     <p>© 2025 Berhanu Sinshaw | <a href="mailto:bsinshaw@ucmerced.edu">bsinshaw@ucmerced.edu</a></p>
   </footer>
-
+</body>
+</html>

@@ -6,14 +6,119 @@
   <title>Home – Berhanu G. Sinshaw</title>
   <link rel="stylesheet" href="style.css" />
   <style>
-    /* Embedded CSS (can also go in style.css) */
+    /* Base styling */
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #e3f2fd; /* light blue background */
+      color: #2c3e50;
+      line-height: 1.6;
+    }
+
+    /* Header: Water-expert style */
+    header {
+      background: linear-gradient(to right, #0d47a1, #1976d2); /* deep to sky blue */
+      color: #ffffff;
+      padding: 30px 20px;
+      border-bottom: 4px solid #42a5f5;
+    }
+
+    /* Header layout */
+    .header-container {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 30px;
+    }
+
+    .profile-pic {
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    /* Header text */
+    .header-text {
+      flex: 1;
+    }
+
+    .header-text h1 {
+      margin: 0;
+      font-size: 2.4rem;
+      color: #ffffff;
+    }
+
+    .header-text p {
+      margin: 5px 0 15px;
+      font-size: 1.1rem;
+      color: #cde9ff;
+    }
+
+    /* Navigation bar */
+    nav a {
+      color: #ffffff;
+      text-decoration: none;
+      margin-right: 18px;
+      font-weight: bold;
+      font-size: 1rem;
+      border-bottom: 2px solid transparent;
+      transition: border-color 0.3s ease;
+    }
+
+    nav a:hover {
+      border-bottom: 2px solid #bbdefb;
+    }
+
+    /* Main content area */
+    main {
+      max-width: 960px;
+      margin: 40px auto;
+      padding: 0 20px 40px;
+      background: #ffffff;
+      border-radius: 8px;
+      box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+    }
+
+    main h2 {
+      color: #0d47a1;
+      border-bottom: 2px solid #64b5f6;
+      padding-bottom: 6px;
+      margin-top: 30px;
+    }
+
+    main p {
+      margin-bottom: 20px;
+      font-size: 1.05rem;
+    }
+
+    /* Footer styling */
+    footer {
+      background-color: #e0e0e0;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+      color: #333;
+    }
+
+    footer a {
+      color: #1565c0;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+
+    /* Logo section styling */
     .bottom-logos {
       display: flex;
       justify-content: center;
       align-items: center;
       gap: 30px;
-      padding: 20px 0;
-      background-color: #f5f5f5;
+      padding: 20px;
+      background-color: #f0f8ff;
     }
 
     .bottom-logos .logo {
@@ -21,60 +126,15 @@
       object-fit: contain;
     }
 
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #e5e5e5;
-    }
+    @media (max-width: 600px) {
+      .bottom-logos {
+        flex-direction: column;
+        gap: 20px;
+      }
 
-    header {
-      background-color: #003262;
-      color: white;
-      padding: 20px 0;
-    }
-
-    .header-container {
-      max-width: 960px;
-      margin: auto;
-      display: flex;
-      align-items: center;
-      padding: 0 20px;
-    }
-
-    .profile-pic {
-      height: 100px;
-      border-radius: 50%;
-      margin-right: 20px;
-    }
-
-    .header-text h1 {
-      margin: 0;
-      font-size: 24px;
-    }
-
-    nav a {
-      color: white;
-      margin-right: 15px;
-      text-decoration: none;
-    }
-
-    nav a:hover {
-      text-decoration: underline;
-    }
-
-    main {
-      max-width: 960px;
-      margin: auto;
-      padding: 20px;
-      background-color: white;
-    }
-
-    footer {
-      text-align: center;
-      padding: 20px;
-      background-color: #ddd;
-      font-size: 14px;
+      .bottom-logos .logo {
+        height: 50px;
+      }
     }
   </style>
 </head>

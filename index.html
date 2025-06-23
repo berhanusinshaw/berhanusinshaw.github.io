@@ -10,20 +10,19 @@
     body {
       margin: 0;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background-color: #e3f2fd; /* light blue background */
+      background-color: #e3f2fd;
       color: #2c3e50;
       line-height: 1.6;
     }
 
-    /* Header: Water-expert style */
+    /* Header */
     header {
-      background: linear-gradient(to right, #0d47a1, #1976d2); /* deep to sky blue */
+      background: linear-gradient(to right, #0d47a1, #1976d2);
       color: #ffffff;
       padding: 30px 20px;
       border-bottom: 4px solid #42a5f5;
     }
 
-    /* Header layout */
     .header-container {
       display: flex;
       align-items: center;
@@ -39,7 +38,6 @@
       box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
     }
 
-    /* Header text */
     .header-text {
       flex: 1;
     }
@@ -56,7 +54,6 @@
       color: #cde9ff;
     }
 
-    /* Navigation bar */
     nav a {
       color: #ffffff;
       text-decoration: none;
@@ -71,7 +68,7 @@
       border-bottom: 2px solid #bbdefb;
     }
 
-    /* Main content area */
+    /* Main content */
     main {
       max-width: 960px;
       margin: 40px auto;
@@ -93,7 +90,39 @@
       font-size: 1.05rem;
     }
 
-    /* Footer styling */
+    /* Logos section */
+    .bottom-logos {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 30px;
+      padding: 20px;
+      background-color: #f0f8ff;
+    }
+
+    .bottom-logos .logo {
+      height: 60px;
+      object-fit: contain;
+      transition: transform 0.3s ease;
+    }
+
+    .bottom-logos .logo:hover {
+      transform: scale(1.05);
+    }
+
+    /* Responsive logos */
+    @media (max-width: 600px) {
+      .bottom-logos {
+        flex-direction: column;
+        gap: 20px;
+      }
+
+      .bottom-logos .logo {
+        height: 50px;
+      }
+    }
+
+    /* Footer */
     footer {
       background-color: #e0e0e0;
       text-align: center;
@@ -109,32 +138,6 @@
 
     footer a:hover {
       text-decoration: underline;
-    }
-
-    /* Logo section styling */
-    .bottom-logos {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      gap: 30px;
-      padding: 20px;
-      background-color: #f0f8ff;
-    }
-
-    .bottom-logos .logo {
-      height: 60px;
-      object-fit: contain;
-    }
-
-    @media (max-width: 600px) {
-      .bottom-logos {
-        flex-direction: column;
-        gap: 20px;
-      }
-
-      .bottom-logos .logo {
-        height: 50px;
-      }
     }
   </style>
 </head>
@@ -170,20 +173,23 @@
     </p>
 
     <p>
-      My research focuses on modeling surface water and groundwater system under a changing climate. I utilize advanced techniques including SWAT+, HYDRUS, MODFLOW (Groundwater Vistas and ModelMuse), and Analytical Depletion Functions (ADF) to analyze complex hydrological systems and contribute to innovative, data-driven solutions for a water-secure future.
+      My research focuses on modeling surface water and groundwater system under a changing climate.
+      I utilize advanced techniques including SWAT+, HYDRUS, MODFLOW (Groundwater Vistas and ModelMuse),
+      and Analytical Depletion Functions (ADF) to analyze complex hydrological systems and contribute
+      to innovative, data-driven solutions for a water-secure future.
     </p>
   </main>
 
   <!-- Logos section -->
   <div class="bottom-logos">
     <a href="https://www.ucmerced.edu/" target="_blank">
-      <img src="UCM.png" alt="UCM" class="logo" />
+      <img src="UCM.png" alt="UC Merced Logo" class="logo" />
     </a>
     <a href="https://ecohydrology.ucmerced.edu/" target="_blank">
-      <img src="FEWS.png" alt="FEWS" class="logo" />
+      <img src="FEWS.png" alt="FEWS Lab Logo" class="logo" />
     </a>
     <a href="https://securewaterfuture.net/" target="_blank">
-      <img src="SWF.jpeg" alt="SWF" class="logo" />
+      <img src="SWF.jpeg" alt="SWF Project Logo" class="logo" />
     </a>
   </div>
 

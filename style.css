@@ -13,7 +13,7 @@
       align-items: center;
       background-color: #003366;
       color: white;
-      padding: 10px 20px;
+      padding: 15px 20px;
     }
     .profile-pic {
       width: 60px;
@@ -32,8 +32,8 @@
 <body>
 
 <header>
-  <!-- Use the actual image path from your repo root -->
-  <img src="./Berhanu_Sinshaw.png" alt="Berhanu Sinshaw" class="profile-pic">
+  <!-- Make sure this file exists at the root of your GitHub repo -->
+  <img src="Berhanu_Sinshaw.png" alt="Berhanu Sinshaw" class="profile-pic">
   <div class="name-title">Berhanu Sinshaw</div>
 </header>
 

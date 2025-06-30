@@ -1,15 +1,71 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Blog posts, California water news, hydrodata resources, and conference updates by Berhanu Sinshaw.">
   <title>Blog – Berhanu Sinshaw</title>
   <link rel="stylesheet" href="style.css" />
+  <style>
+    .hydrodata-section {
+      text-align: center;
+      padding: 20px;
+      background-color: #e3f2fd;
+    }
+
+    .hydrodata-section a {
+      color: #0d47a1;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    .hydrodata-section a:hover {
+      text-decoration: underline;
+    }
+
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: center;
+      padding: 10px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #0077cc;
+    }
+
+    main {
+      padding: 20px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #f2f2f2;
+      font-size: 0.9rem;
+    }
+
+    h2 {
+      margin-top: 40px;
+      color: #003366;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+  </style>
 </head>
 <body>
   <header>
-    <h1>Blog</h1>
-    <nav>
+    <h1 style="text-align:center;">Blog</h1>
+    <nav aria-label="Main navigation">
       <a href="index.html">Home</a>
       <a href="about.html">About</a>
       <a href="research.html">Research</a>
@@ -22,7 +78,7 @@
   </header>
 
   <main>
-    <section>
+    <section aria-label="Recent Reflections">
       <h2>Recent Reflections</h2>
       <ul>
         <li>Insights from the Tulare Basin modeling work</li>
@@ -31,7 +87,7 @@
       </ul>
     </section>
 
-    <section>
+    <section aria-label="California Water Blogs">
       <h2>California Water Blogs</h2>
       <ul>
         <li><a href="https://mavensnotebook.com/" target="_blank">Maven’s Notebook</a> – Daily updates on California water policy, Delta, SGMA, and more.</li>
@@ -42,7 +98,29 @@
       </ul>
     </section>
 
-    <section>
+    <section aria-label="Hydro Data">
+      <h2>Hydro Data</h2>
+      <div class="hydrodata-section">
+        <p style="font-size: 1.05rem;">
+          <strong>EcoHydroData Hub:</strong>
+          <a href="https://ecohydrohub.github.io/" target="_blank">https://ecohydrohub.github.io/</a>
+        </p>
+        <p style="font-size: 1.05rem;">
+          <strong>MERIT Hydro:</strong>
+          <a href="https://hydro.iis.u-tokyo.ac.jp/~yamadai/MERIT_Hydro/index.html" target="_blank">MERIT Hydro Dataset</a>
+        </p>
+        <p style="font-size: 1.05rem;">
+          <strong>HydroSHEDS Data:</strong>
+          <a href="https://www.hydrosheds.org/products" target="_blank">hydrosheds.org/products</a>
+        </p>
+        <p style="font-size: 1.05rem;">
+          <strong>GLHYMPS (Global Hydrogeology Maps):</strong>
+          <a href="https://borealisdata.ca/dataset.xhtml?persistentId=doi:10.5683/SP2/DLGXYO" target="_blank">Gleeson et al. 2014 – GLHYMPS</a>
+        </p>
+      </div>
+    </section>
+
+    <section aria-label="Upcoming Conferences">
       <h2>Upcoming Conferences (2025–2026)</h2>
       <ul>
         <li>

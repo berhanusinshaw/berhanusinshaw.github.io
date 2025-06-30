@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Berhanu Sinshaw</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+    header {
+      display: flex;
+      align-items: center;
+      background-color: #003366;
+      color: white;
+      padding: 15px 20px;
+    }
+    .profile-pic {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-right: 15px;
+      border: 2px solid white;
+    }
+    .name-title {
+      font-size: 1.5em;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <!-- FIX the extension here to match your actual image file -->
+  <img src="Berhanu_Sinshaw.png" alt="Berhanu Sinshaw" class="profile-pic">
+  <div class="name-title">Berhanu Sinshaw</div>
+</header>
+
+<main>
+  <p>Welcome to my academic website!</p>
+</main>
+
+</body>
+</html>

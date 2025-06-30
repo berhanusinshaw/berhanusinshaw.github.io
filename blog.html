@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -6,7 +6,23 @@
   <meta name="description" content="Blog posts, California water news, hydrodata resources, and conference updates by Berhanu Sinshaw.">
   <title>Blog – Berhanu Sinshaw</title>
   <link rel="stylesheet" href="style.css" />
+
   <style>
+    /* Skip link for accessibility */
+    .skip-link {
+      position: absolute;
+      top: -40px;
+      left: 0;
+      background: #000;
+      color: #fff;
+      padding: 8px;
+      z-index: 100;
+      transition: top 0.3s;
+    }
+    .skip-link:focus {
+      top: 0;
+    }
+
     .hydrodata-section {
       text-align: center;
       padding: 20px;
@@ -60,9 +76,23 @@
     ul {
       padding-left: 20px;
     }
+
+    /* Optional: Responsive tweaks for small screens */
+    @media (max-width: 600px) {
+      nav {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      ul {
+        padding-left: 10px;
+      }
+    }
   </style>
 </head>
 <body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
   <header>
     <h1 style="text-align:center;">Blog</h1>
     <nav aria-label="Main navigation">
@@ -73,11 +103,11 @@
       <a href="blog.html">Blog</a>
       <a href="news.html">News</a>
       <a href="contact.html">Contact</a>
-      <a href="cv/CV_Berhanu_Sinshaw.pdf" target="_blank">CV</a>
+      <a href="cv/CV_Berhanu_Sinshaw.pdf" target="_blank" rel="noopener noreferrer">CV</a>
     </nav>
   </header>
 
-  <main>
+  <main id="main-content">
     <section aria-label="Recent Reflections">
       <h2>Recent Reflections</h2>
       <ul>
@@ -90,11 +120,11 @@
     <section aria-label="California Water Blogs">
       <h2>California Water Blogs</h2>
       <ul>
-        <li><a href="https://mavensnotebook.com/" target="_blank">Maven’s Notebook</a> – Daily updates on California water policy, Delta, SGMA, and more.</li>
-        <li><a href="https://californiawaterblog.com/" target="_blank">California WaterBlog</a> – UC Davis experts discuss science-based water solutions.</li>
-        <li><a href="https://www.ppic.org/blog/?topic=water-policy" target="_blank">PPIC Water Policy Center</a> – Independent policy research and water reform insights.</li>
-        <li><a href="https://www.watereducation.org/blogs" target="_blank">Water Education Foundation</a> – Educational water news and commentary.</li>
-        <li><a href="https://blogs.edf.org/growingreturns/category/water/" target="_blank">EDF Growing Returns – Water</a> – Climate resilience and sustainable groundwater use.</li>
+        <li><a href="https://mavensnotebook.com/" target="_blank" rel="noopener noreferrer">Maven’s Notebook</a> – Daily updates on California water policy, Delta, SGMA, and more.</li>
+        <li><a href="https://californiawaterblog.com/" target="_blank" rel="noopener noreferrer">California WaterBlog</a> – UC Davis experts discuss science-based water solutions.</li>
+        <li><a href="https://www.ppic.org/blog/?topic=water-policy" target="_blank" rel="noopener noreferrer">PPIC Water Policy Center</a> – Independent policy research and water reform insights.</li>
+        <li><a href="https://www.watereducation.org/blogs" target="_blank" rel="noopener noreferrer">Water Education Foundation</a> – Educational water news and commentary.</li>
+        <li><a href="https://blogs.edf.org/growingreturns/category/water/" target="_blank" rel="noopener noreferrer">EDF Growing Returns – Water</a> – Climate resilience and sustainable groundwater use.</li>
       </ul>
     </section>
 
@@ -103,19 +133,19 @@
       <div class="hydrodata-section">
         <p style="font-size: 1.05rem;">
           <strong>EcoHydroData Hub:</strong>
-          <a href="https://ecohydrohub.github.io/" target="_blank">https://ecohydrohub.github.io/</a>
+          <a href="https://ecohydrohub.github.io/" target="_blank" rel="noopener noreferrer">https://ecohydrohub.github.io/</a>
         </p>
         <p style="font-size: 1.05rem;">
           <strong>MERIT Hydro:</strong>
-          <a href="https://hydro.iis.u-tokyo.ac.jp/~yamadai/MERIT_Hydro/index.html" target="_blank">MERIT Hydro Dataset</a>
+          <a href="https://hydro.iis.u-tokyo.ac.jp/~yamadai/MERIT_Hydro/index.html" target="_blank" rel="noopener noreferrer">MERIT Hydro Dataset</a>
         </p>
         <p style="font-size: 1.05rem;">
           <strong>HydroSHEDS Data:</strong>
-          <a href="https://www.hydrosheds.org/products" target="_blank">hydrosheds.org/products</a>
+          <a href="https://www.hydrosheds.org/products" target="_blank" rel="noopener noreferrer">hydrosheds.org/products</a>
         </p>
         <p style="font-size: 1.05rem;">
           <strong>GLHYMPS (Global Hydrogeology Maps):</strong>
-          <a href="https://borealisdata.ca/dataset.xhtml?persistentId=doi:10.5683/SP2/DLGXYO" target="_blank">Gleeson et al. 2014 – GLHYMPS</a>
+          <a href="https://borealisdata.ca/dataset.xhtml?persistentId=doi:10.5683/SP2/DLGXYO" target="_blank" rel="noopener noreferrer">Gleeson et al. 2014 – GLHYMPS</a>
         </p>
       </div>
     </section>
@@ -125,31 +155,31 @@
       <ul>
         <li>
           <strong>AGU Annual Meeting (AGU25)</strong> – Dec 15–19, 2025 · New Orleans, LA<br>
-          🔗 <a href="https://www.agu.org/annual-meeting" target="_blank">agu.org/annual-meeting</a>
+          🔗 <a href="https://www.agu.org/annual-meeting" target="_blank" rel="noopener noreferrer">agu.org/annual-meeting</a>
         </li>
         <li>
           <strong>EWRI/ASCE Water Resources Congress</strong> – May 18–21, 2025 · Anchorage, AK<br>
-          🔗 <a href="https://alaska2025.eventscribe.net" target="_blank">alaska2025.eventscribe.net</a>
+          🔗 <a href="https://alaska2025.eventscribe.net" target="_blank" rel="noopener noreferrer">alaska2025.eventscribe.net</a>
         </li>
         <li>
           <strong>AWRA Annual Conference</strong> – Nov 10–12, 2025 · Westminster, CO<br>
-          🔗 <a href="https://www.awra.org" target="_blank">awra.org</a>
+          🔗 <a href="https://www.awra.org" target="_blank" rel="noopener noreferrer">awra.org</a>
         </li>
         <li>
           <strong>World Water Week (SIWI)</strong> – Aug 24–28, 2025 · Stockholm, Sweden & Online<br>
-          🔗 <a href="https://www.worldwaterweek.org" target="_blank">worldwaterweek.org</a>
+          🔗 <a href="https://www.worldwaterweek.org" target="_blank" rel="noopener noreferrer">worldwaterweek.org</a>
         </li>
         <li>
           <strong>Global Water Summit</strong> – May 12–14, 2025 · Paris, France<br>
-          🔗 <a href="https://www.globalwaterintel.com" target="_blank">globalwaterintel.com</a>
+          🔗 <a href="https://www.globalwaterintel.com" target="_blank" rel="noopener noreferrer">globalwaterintel.com</a>
         </li>
         <li>
           <strong>UN Water Conference</strong> – Dec 2–4, 2026 · UAE & Senegal<br>
-          🔗 <a href="https://www.unwater.org" target="_blank">unwater.org</a> (Details expected late 2025)
+          🔗 <a href="https://www.unwater.org" target="_blank" rel="noopener noreferrer">unwater.org</a> (Details expected late 2025)
         </li>
         <li>
           <strong>IWA World Water Congress</strong> – 2026 · Location TBD<br>
-          🔗 <a href="https://iwa-network.org" target="_blank">iwa-network.org</a>
+          🔗 <a href="https://iwa-network.org" target="_blank" rel="noopener noreferrer">iwa-network.org</a>
         </li>
       </ul>
     </section>

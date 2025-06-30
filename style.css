@@ -32,9 +32,14 @@
 <body>
 
 <header>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Sample_User_Icon.png" alt="Berhanu Sinshaw" class="profile-pic">
+  <img src="Berhanu_Sinshaw.png" alt="Berhanu Sinshaw" class="profile-pic">
   <div class="name-title">Berhanu Sinshaw</div>
 </header>
+
+<!-- Add the rest of your page content here -->
+<main>
+  <p>Welcome to my academic website.</p>
+</main>
 
 </body>
 </html>

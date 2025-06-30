@@ -32,13 +32,13 @@
 <body>
 
 <header>
-  <img src="Berhanu_Sinshaw.png" alt="Berhanu Sinshaw" class="profile-pic">
+  <!-- Use the actual image path from your repo root -->
+  <img src="./Berhanu_Sinshaw.png" alt="Berhanu Sinshaw" class="profile-pic">
   <div class="name-title">Berhanu Sinshaw</div>
 </header>
 
-<!-- Add the rest of your page content here -->
 <main>
-  <p>Welcome to my academic website.</p>
+  <p>Welcome to my academic website!</p>
 </main>
 
 </body>

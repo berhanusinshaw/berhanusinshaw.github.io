@@ -4,15 +4,115 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Home – Berhanu G. Sinshaw</title>
-  <link rel="stylesheet" href="style.css" />
+
+  <style>
+    /* Background styling */
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background: url('https://images.unsplash.com/photo-1538474705339-754c3a457a4f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80') no-repeat center center fixed;
+      background-size: cover;
+      color: #ffffff;
+    }
+
+    /* Header section */
+    header {
+      background-color: rgba(0, 0, 0, 0.7);
+      padding: 20px 0;
+    }
+
+    .header-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      max-width: 1000px;
+      margin: auto;
+      padding: 0 20px;
+    }
+
+    .profile-pic {
+      width: 150px;
+      height: auto;
+      border-radius: 50%;
+      margin-right: 20px;
+    }
+
+    .header-text {
+      text-align: center;
+    }
+
+    .header-text h1 {
+      margin: 0;
+      font-size: 2em;
+    }
+
+    .header-text p {
+      margin: 5px 0 10px;
+      font-size: 1em;
+    }
+
+    nav {
+      margin-top: 10px;
+    }
+
+    nav a {
+      color: #a8e0ff;
+      text-decoration: none;
+      margin: 0 10px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    /* Main content */
+    main {
+      background-color: rgba(0, 0, 0, 0.6);
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 30px;
+      border-radius: 10px;
+    }
+
+    main h2 {
+      color: #a8e0ff;
+    }
+
+    main p {
+      line-height: 1.6;
+      font-size: 1.1em;
+    }
+
+    /* Footer styling */
+    footer {
+      background-color: rgba(0, 0, 0, 0.8);
+      text-align: center;
+      padding: 15px 10px;
+      font-size: 0.9em;
+      margin-top: 40px;
+    }
+
+    footer a {
+      color: #a8e0ff;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
+
 <body>
   <header>
     <div class="header-container">
       <img src="Berhanu_Sinshaw.png" alt="Berhanu Sinshaw" class="profile-pic" />
       <div class="header-text">
         <h1>Berhanu G. Sinshaw</h1>
-         <p>Civil & Environmental Engineering | University of California, Merced</p>
+        <p>Civil & Environmental Engineering | University of California, Merced</p>
         <nav>
           <a href="index.html">Home</a>
           <a href="about.html">About</a>
@@ -38,7 +138,9 @@
     </p>
 
     <p>
-My research focuses on modeling regional surface water and groundwater system under a changing climate. I utilize advanced numerical and  analytical methods to analyze complex hydrological systems and contribute to innovative, data-driven solutions for a water-secure future.
+      My research focuses on modeling regional surface water and groundwater systems under a changing climate.
+      I utilize advanced numerical and analytical methods to analyze complex hydrological systems and
+      contribute to innovative, data-driven solutions for a water-secure future.
     </p>
   </main>
 

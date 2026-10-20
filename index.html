@@ -3,27 +3,233 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
   <meta
     name="description"
     content="Berhanu G. Sinshaw is a PhD candidate and graduate research assistant at UC Merced studying surface water–groundwater interactions and climate impacts on water resources."
   />
-  <title>Berhanu G. Sinshaw | Hydrology & Water Resources</title>
-  <link rel="stylesheet" href="style.css" />
+
+  <title>Berhanu G. Sinshaw | Hydrology &amp; Water Resources</title>
+
+  <style>
+    :root {
+      --navy: #10345c;
+      --blue: #17568c;
+      --light-blue: #eaf3fc;
+      --text: #24374b;
+      --white: #ffffff;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 17px;
+      line-height: 1.75;
+      color: var(--text);
+      background: var(--light-blue);
+    }
+
+    header {
+      color: var(--white);
+      background: linear-gradient(120deg, var(--navy), var(--blue));
+      border-bottom: 5px solid #73b7e8;
+    }
+
+    .header-container {
+      display: flex;
+      align-items: center;
+      gap: 32px;
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 44px 28px;
+    }
+
+    .profile-pic {
+      display: block;
+      width: 190px;
+      height: 190px;
+      min-width: 190px;
+      flex-shrink: 0;
+      object-fit: cover;
+      object-position: center;
+      border: 5px solid var(--white);
+      border-radius: 50%;
+      background: #d8e8f7;
+      box-shadow: 0 10px 28px rgba(0, 0, 0, 0.25);
+      opacity: 1;
+      visibility: visible;
+    }
+
+    .header-text {
+      flex: 1;
+      min-width: 0;
+    }
+
+    h1 {
+      margin: 0 0 10px;
+      font-size: clamp(1.9rem, 4vw, 2.7rem);
+      line-height: 1.2;
+      letter-spacing: -0.5px;
+    }
+
+    .header-text p {
+      margin: 0;
+      color: #e2eefb;
+      line-height: 1.6;
+    }
+
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 22px;
+    }
+
+    nav a {
+      display: inline-block;
+      padding: 7px 12px;
+      border-radius: 6px;
+      color: var(--white);
+      font-size: 15px;
+      font-weight: 600;
+      text-decoration: none;
+      transition: background-color 0.2s ease;
+    }
+
+    nav a:hover,
+    nav a[aria-current="page"] {
+      background: rgba(255, 255, 255, 0.18);
+    }
+
+    a:focus-visible {
+      outline: 3px solid #efbb48;
+      outline-offset: 4px;
+    }
+
+    main {
+      max-width: 1044px;
+      margin: 36px auto;
+      padding: 36px 42px;
+      background: var(--white);
+      border: 1px solid #d7e5f2;
+      border-radius: 12px;
+      box-shadow: 0 8px 28px rgba(16, 52, 92, 0.08);
+    }
+
+    h2 {
+      margin: 30px 0 16px;
+      padding-bottom: 10px;
+      border-bottom: 2px solid #e3edf7;
+      color: var(--navy);
+      font-size: 1.55rem;
+      line-height: 1.3;
+    }
+
+    h2:first-child {
+      margin-top: 0;
+    }
+
+    main p {
+      margin: 0 0 18px;
+    }
+
+    main a {
+      color: #125a96;
+      font-weight: 600;
+      text-underline-offset: 3px;
+    }
+
+    main a:hover {
+      color: #08375e;
+    }
+
+    .research-interests {
+      margin: 0 0 24px;
+      padding-left: 24px;
+    }
+
+    .research-interests li {
+      margin-bottom: 10px;
+      padding-left: 4px;
+    }
+
+    .research-interests li::marker {
+      color: var(--blue);
+    }
+
+    footer {
+      padding: 24px;
+      color: #dceafa;
+      background: var(--navy);
+      text-align: center;
+      font-size: 14px;
+    }
+
+    footer p {
+      margin: 0;
+    }
+
+    footer a {
+      color: var(--white);
+      text-underline-offset: 3px;
+      overflow-wrap: anywhere;
+    }
+
+    @media (max-width: 700px) {
+      .header-container {
+        flex-direction: column;
+        gap: 24px;
+        padding: 34px 20px;
+        text-align: center;
+      }
+
+      .profile-pic {
+        width: 170px;
+        height: 170px;
+        min-width: 170px;
+      }
+
+      nav {
+        justify-content: center;
+      }
+
+      main {
+        margin: 22px 16px;
+        padding: 26px 22px;
+      }
+
+      body {
+        font-size: 16px;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      nav a {
+        transition: none;
+      }
+    }
+  </style>
 </head>
 
 <body>
   <header>
     <div class="header-container">
+      <!-- The filename and capitalization must match your image file. -->
       <img
-        src="Berhanu_Sinshaw.png"
+        src="./Berhanu_Sinshaw.png"
         alt="Portrait of Berhanu G. Sinshaw"
         class="profile-pic"
-        width="120"
-        height="120"
+        width="190"
+        height="190"
       />
 
       <div class="header-text">
         <h1>Berhanu G. Sinshaw</h1>
+
         <p>
           Civil &amp; Environmental Engineering<br />
           University of California, Merced
@@ -37,6 +243,7 @@
           <a href="blog.html">Blog</a>
           <a href="news.html">News</a>
           <a href="contact.html">Contact</a>
+
           <a
             href="cv/CV_Berhanu_Sinshaw.pdf"
             target="_blank"
@@ -69,7 +276,7 @@
 
     <h2>Research Interests</h2>
 
-    <ul>
+    <ul class="research-interests">
       <li>Surface water–groundwater interactions</li>
       <li>Integrated hydrological and watershed modeling</li>
       <li>Groundwater pumping and streamflow depletion</li>

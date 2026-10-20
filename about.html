@@ -8,19 +8,19 @@
 
   <meta
     name="description"
-    content="Learn about Berhanu G. Sinshaw, a Ph.D. candidate and Graduate Research Assistant at UC Merced specializing in hydrology and water resources engineering."
+    content="Learn about Berhanu G. Sinshaw, a Ph.D. candidate at UC Merced specializing in hydrology, integrated modeling, and sustainable water resources management."
   />
 
   <style>
     :root {
-      --background: #f7f6f0;
-      --panel: #edf0e5;
-      --ink: #173e47;
-      --muted: #5a6b69;
-      --accent: #537c63;
-      --border: #cdd5c7;
+      --background: #0b2344;
+      --panel: #14365b;
+      --ink: #f5f8ff;
+      --muted: #c0d0e5;
+      --accent: #8dceff;
+      --border: #355475;
       --serif: Georgia, "Times New Roman", serif;
-      --sans: Arial, Helvetica, sans-serif;
+      --sans: "Segoe UI", Arial, Helvetica, sans-serif;
     }
 
     * {
@@ -33,7 +33,8 @@
 
     body {
       margin: 0;
-      background: var(--background);
+      min-height: 100vh;
+      background: linear-gradient(135deg, #081c36 0%, #123e6b 100%);
       color: var(--ink);
       font-family: var(--sans);
       line-height: 1.8;
@@ -45,23 +46,26 @@
     }
 
     a:focus-visible {
-      outline: 3px solid #b88645;
+      outline: 3px solid var(--accent);
       outline-offset: 5px;
+      border-radius: 2px;
     }
 
     .container {
       width: min(1160px, calc(100% - 64px));
-      margin: auto;
+      margin-inline: auto;
     }
 
     .skip-link {
       position: absolute;
       top: -100px;
       left: 16px;
+      z-index: 10;
       padding: 10px 16px;
       background: var(--ink);
-      color: white;
-      z-index: 10;
+      color: #081c36;
+      font-weight: 600;
+      border-radius: 6px;
     }
 
     .skip-link:focus {
@@ -71,6 +75,7 @@
     /* Header */
 
     .site-header {
+      background: #091e39;
       border-bottom: 1px solid var(--border);
     }
 
@@ -79,7 +84,7 @@
       justify-content: space-between;
       align-items: center;
       gap: 32px;
-      padding: 26px 0;
+      padding: 24px 0;
     }
 
     .brand {
@@ -90,6 +95,7 @@
     }
 
     .brand-mark {
+      color: var(--accent);
       font-family: var(--serif);
       font-size: 46px;
       font-style: italic;
@@ -98,16 +104,16 @@
 
     .brand-name {
       display: block;
-      font-size: 14px;
-      font-weight: 600;
+      font-size: 16px;
+      font-weight: 700;
     }
 
     .brand-description {
       display: block;
       margin-top: 2px;
       color: var(--muted);
-      font-size: 9px;
-      letter-spacing: 0.12em;
+      font-size: 10px;
+      letter-spacing: 0.1em;
       text-transform: uppercase;
     }
 
@@ -115,14 +121,16 @@
       display: flex;
       justify-content: flex-end;
       flex-wrap: wrap;
-      gap: 18px;
+      gap: 20px;
     }
 
     nav a {
-      padding: 5px 0;
-      border-bottom: 1px solid transparent;
-      font-size: 12px;
-      transition: color 0.2s, border-color 0.2s;
+      padding: 6px 0;
+      color: #d5e2f3;
+      border-bottom: 2px solid transparent;
+      font-size: 14px;
+      font-weight: 500;
+      transition: color 0.2s ease, border-color 0.2s ease;
     }
 
     nav a:hover,
@@ -134,37 +142,40 @@
     /* Introduction */
 
     main {
-      padding: 76px 0;
+      padding: 72px 0;
     }
 
     .intro-grid {
       display: grid;
-      grid-template-columns: 1.4fr 0.8fr;
+      grid-template-columns: minmax(0, 1.4fr) minmax(0, 0.8fr);
       align-items: center;
-      gap: 80px;
+      gap: 56px;
+    }
+
+    .eyebrow,
+    .section-label {
+      color: var(--accent);
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
     }
 
     .eyebrow {
       margin: 0 0 22px;
-      color: var(--accent);
-      font-size: 10px;
-      font-weight: 600;
-      letter-spacing: 0.15em;
-      text-transform: uppercase;
     }
 
     h1,
-    h2,
-    h3 {
+    h2 {
       font-family: var(--serif);
       font-weight: 400;
     }
 
     h1 {
       margin: 0;
-      font-size: clamp(38px, 4.6vw, 62px);
-      letter-spacing: -0.045em;
-      line-height: 1.12;
+      font-size: clamp(38px, 4.5vw, 60px);
+      letter-spacing: -0.035em;
+      line-height: 1.15;
     }
 
     h1 em {
@@ -174,40 +185,88 @@
 
     .lead {
       margin: 28px 0 22px;
-      color: #345952;
+      color: #e0ebf9;
       font-family: var(--serif);
       font-size: 24px;
-      line-height: 1.5;
+      line-height: 1.6;
     }
 
     .intro-copy {
       margin: 16px 0 0;
       color: var(--muted);
+      font-size: 16px;
+      line-height: 1.85;
+    }
+
+    .intro-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 30px;
+    }
+
+    .button {
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 46px;
+      padding: 10px 20px;
+      border: 1px solid transparent;
+      border-radius: 6px;
       font-size: 14px;
+      font-weight: 600;
+      transition: background-color 0.2s ease, border-color 0.2s ease;
+    }
+
+    .button-primary {
+      background: var(--accent);
+      color: #081c36;
+    }
+
+    .button-primary:hover {
+      background: #b6dfff;
+    }
+
+    .button-secondary {
+      background: transparent;
+      color: var(--ink);
+      border-color: #6686a8;
+    }
+
+    .button-secondary:hover {
+      background: #1a416b;
+      border-color: var(--accent);
     }
 
     /* Affiliation and contact */
 
     .contact-panel {
-      padding: 32px;
+      min-width: 0;
+      padding: 34px;
       background: var(--panel);
-      border-top: 3px solid var(--accent);
+      border: 1px solid var(--border);
+      border-top: 4px solid var(--accent);
+      border-radius: 14px;
+      box-shadow: 0 16px 40px rgba(0, 10, 30, 0.2);
     }
 
     .contact-panel h2 {
-      margin: 0 0 10px;
-      font-size: 25px;
-      line-height: 1.3;
+      margin: 0 0 14px;
+      font-size: 28px;
+      line-height: 1.35;
     }
 
     .affiliation {
       margin: 0;
       color: var(--muted);
-      font-size: 12px;
+      font-size: 14px;
+      line-height: 1.8;
     }
 
     .contact-details {
       margin: 28px 0 0;
+      padding-top: 24px;
+      border-top: 1px solid var(--border);
     }
 
     .contact-details > div + div {
@@ -216,21 +275,22 @@
 
     .contact-details dt {
       color: var(--accent);
-      font-size: 9px;
-      font-weight: 600;
+      font-size: 11px;
+      font-weight: 700;
       letter-spacing: 0.12em;
       text-transform: uppercase;
     }
 
     .contact-details dd {
       margin: 6px 0 0;
-      font-size: 13px;
+      color: var(--ink);
+      font-size: 15px;
       overflow-wrap: anywhere;
     }
 
     .contact-details a {
-      border-bottom: 1px solid #a1b19b;
       padding-bottom: 3px;
+      border-bottom: 1px solid var(--accent);
     }
 
     .contact-details a:hover {
@@ -241,32 +301,35 @@
 
     .background-grid {
       display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 80px;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 32px;
       margin-top: 64px;
-      padding-top: 44px;
+      padding-top: 40px;
       border-top: 1px solid var(--border);
+    }
+
+    .background-grid > section {
+      min-width: 0;
+      padding: 32px;
+      background: #102e50;
+      border: 1px solid var(--border);
+      border-radius: 14px;
     }
 
     .section-label {
       margin: 0 0 10px;
-      color: var(--accent);
-      font-size: 9px;
-      font-weight: 600;
-      letter-spacing: 0.12em;
-      text-transform: uppercase;
     }
 
     .section-title {
       margin: 0;
-      font-size: 31px;
-      line-height: 1.25;
+      font-size: 30px;
+      line-height: 1.3;
     }
 
     .timeline {
       margin: 30px 0 0;
       padding: 0 0 0 23px;
-      border-left: 1px solid var(--border);
+      border-left: 1px solid #58789b;
       list-style: none;
     }
 
@@ -282,40 +345,44 @@
     .timeline li::before {
       content: "";
       position: absolute;
-      top: 7px;
+      top: 9px;
       left: -28px;
       width: 9px;
       height: 9px;
+      background: var(--accent);
       border-radius: 50%;
-      background: #8a9b74;
-      box-shadow: 0 0 0 4px var(--background);
+      box-shadow: 0 0 0 4px #102e50;
     }
 
     .timeline .date {
-      color: #6d826b;
-      font-size: 9px;
-      letter-spacing: 0.1em;
+      color: var(--accent);
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.08em;
     }
 
     .timeline h3 {
       margin: 7px 0 6px;
-      font-size: 23px;
-      letter-spacing: -0.02em;
-      line-height: 1.3;
+      color: var(--ink);
+      font-family: var(--sans);
+      font-size: 19px;
+      font-weight: 600;
+      line-height: 1.5;
     }
 
     .timeline p {
       margin: 0;
       color: var(--muted);
-      font-size: 13px;
+      font-size: 14px;
       line-height: 1.8;
     }
 
     /* Footer */
 
     .site-footer {
-      border-top: 1px solid var(--border);
       padding: 28px 0;
+      background: #091e39;
+      border-top: 1px solid var(--border);
     }
 
     .footer-inner {
@@ -328,21 +395,21 @@
     .site-footer p {
       margin: 0;
       color: var(--muted);
-      font-size: 11px;
+      font-size: 13px;
     }
 
-    .footer-tagline {
+    .site-footer .footer-tagline {
+      color: var(--ink);
       font-family: var(--serif);
-      font-size: 16px !important;
-      color: var(--ink) !important;
+      font-size: 17px;
     }
 
     /* Responsive layout */
 
     @media (max-width: 1000px) {
       .header-inner {
-        align-items: flex-start;
         flex-direction: column;
+        align-items: flex-start;
         gap: 20px;
       }
 
@@ -350,13 +417,16 @@
         justify-content: flex-start;
       }
 
-      .intro-grid,
-      .background-grid {
-        gap: 40px;
+      .intro-grid {
+        gap: 32px;
       }
 
       .contact-panel {
-        padding: 25px;
+        padding: 26px;
+      }
+
+      .background-grid > section {
+        padding: 26px;
       }
     }
 
@@ -366,7 +436,7 @@
       }
 
       main {
-        padding: 45px 0;
+        padding: 44px 0;
       }
 
       nav {
@@ -379,26 +449,31 @@
       }
 
       .intro-grid {
-        gap: 32px;
+        gap: 36px;
       }
 
       .lead {
         font-size: 22px;
       }
 
+      .contact-panel,
+      .background-grid > section {
+        padding: 24px;
+      }
+
       .background-grid {
-        gap: 44px;
+        gap: 24px;
         margin-top: 40px;
         padding-top: 32px;
       }
 
       .section-title {
-        font-size: 29px;
+        font-size: 28px;
       }
 
       .footer-inner {
-        align-items: flex-start;
         flex-direction: column;
+        align-items: flex-start;
         gap: 8px;
       }
     }
@@ -473,9 +548,24 @@
 
         <p class="intro-copy">
           My expertise lies in integrated hydrological modeling,
-          climate change impacts on water systems, Managed Aquifer Recharge  and sustainable
-          groundwater management in arid and semi-arid regions.
+          climate change impacts on water systems, managed aquifer
+          recharge, and sustainable groundwater management in arid
+          and semi-arid regions.
         </p>
+
+        <div class="intro-actions">
+          <a class="button button-primary" href="research.html">
+            Explore my research
+          </a>
+          <a
+            class="button button-secondary"
+            href="CV/CV_Berhanu_Sinshaw.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View CV ↗
+          </a>
+        </div>
       </div>
 
       <aside class="contact-panel" aria-labelledby="contact-title">

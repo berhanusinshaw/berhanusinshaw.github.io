@@ -2,49 +2,603 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
   <title>About – Berhanu Geremew Sinshaw</title>
-  <link rel="stylesheet" href="style.css" />
+
+  <meta
+    name="description"
+    content="Learn about Berhanu G. Sinshaw, a Ph.D. candidate and Graduate Research Assistant at UC Merced specializing in hydrology and water resources engineering."
+  />
+
+  <style>
+    :root {
+      --background: #f7f6f0;
+      --panel: #edf0e5;
+      --ink: #173e47;
+      --muted: #5a6b69;
+      --accent: #537c63;
+      --border: #cdd5c7;
+      --serif: Georgia, "Times New Roman", serif;
+      --sans: Arial, Helvetica, sans-serif;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      background: var(--background);
+      color: var(--ink);
+      font-family: var(--sans);
+      line-height: 1.8;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    a:focus-visible {
+      outline: 3px solid #b88645;
+      outline-offset: 5px;
+    }
+
+    .container {
+      width: min(1160px, calc(100% - 64px));
+      margin: auto;
+    }
+
+    .skip-link {
+      position: absolute;
+      top: -100px;
+      left: 16px;
+      padding: 10px 16px;
+      background: var(--ink);
+      color: white;
+      z-index: 10;
+    }
+
+    .skip-link:focus {
+      top: 12px;
+    }
+
+    /* Header */
+
+    .site-header {
+      border-bottom: 1px solid var(--border);
+    }
+
+    .header-inner {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 32px;
+      padding: 26px 0;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      flex-shrink: 0;
+    }
+
+    .brand-mark {
+      font-family: var(--serif);
+      font-size: 46px;
+      font-style: italic;
+      line-height: 1;
+    }
+
+    .brand-name {
+      display: block;
+      font-size: 14px;
+      font-weight: 600;
+    }
+
+    .brand-description {
+      display: block;
+      margin-top: 2px;
+      color: var(--muted);
+      font-size: 9px;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+
+    nav {
+      display: flex;
+      justify-content: flex-end;
+      flex-wrap: wrap;
+      gap: 18px;
+    }
+
+    nav a {
+      padding: 5px 0;
+      border-bottom: 1px solid transparent;
+      font-size: 12px;
+      transition: color 0.2s, border-color 0.2s;
+    }
+
+    nav a:hover,
+    nav a[aria-current="page"] {
+      color: var(--accent);
+      border-bottom-color: var(--accent);
+    }
+
+    /* Introduction */
+
+    main {
+      padding: 76px 0;
+    }
+
+    .intro-grid {
+      display: grid;
+      grid-template-columns: 1.4fr 0.8fr;
+      align-items: center;
+      gap: 80px;
+    }
+
+    .eyebrow {
+      margin: 0 0 22px;
+      color: var(--accent);
+      font-size: 10px;
+      font-weight: 600;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+    }
+
+    h1,
+    h2,
+    h3 {
+      font-family: var(--serif);
+      font-weight: 400;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(38px, 4.6vw, 62px);
+      letter-spacing: -0.045em;
+      line-height: 1.12;
+    }
+
+    h1 em {
+      color: var(--accent);
+      font-weight: 400;
+    }
+
+    .lead {
+      margin: 28px 0 22px;
+      color: #345952;
+      font-family: var(--serif);
+      font-size: 24px;
+      line-height: 1.5;
+    }
+
+    .intro-copy {
+      margin: 16px 0 0;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    /* Affiliation and contact */
+
+    .contact-panel {
+      padding: 32px;
+      background: var(--panel);
+      border-top: 3px solid var(--accent);
+    }
+
+    .contact-panel h2 {
+      margin: 0 0 10px;
+      font-size: 25px;
+      line-height: 1.3;
+    }
+
+    .affiliation {
+      margin: 0;
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    .contact-details {
+      margin: 28px 0 0;
+    }
+
+    .contact-details > div + div {
+      margin-top: 22px;
+    }
+
+    .contact-details dt {
+      color: var(--accent);
+      font-size: 9px;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+
+    .contact-details dd {
+      margin: 6px 0 0;
+      font-size: 13px;
+      overflow-wrap: anywhere;
+    }
+
+    .contact-details a {
+      border-bottom: 1px solid #a1b19b;
+      padding-bottom: 3px;
+    }
+
+    .contact-details a:hover {
+      color: var(--accent);
+    }
+
+    /* Education and experience */
+
+    .background-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 80px;
+      margin-top: 64px;
+      padding-top: 44px;
+      border-top: 1px solid var(--border);
+    }
+
+    .section-label {
+      margin: 0 0 10px;
+      color: var(--accent);
+      font-size: 9px;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+
+    .section-title {
+      margin: 0;
+      font-size: 31px;
+      line-height: 1.25;
+    }
+
+    .timeline {
+      margin: 30px 0 0;
+      padding: 0 0 0 23px;
+      border-left: 1px solid var(--border);
+      list-style: none;
+    }
+
+    .timeline li {
+      position: relative;
+      padding-bottom: 30px;
+    }
+
+    .timeline li:last-child {
+      padding-bottom: 0;
+    }
+
+    .timeline li::before {
+      content: "";
+      position: absolute;
+      top: 7px;
+      left: -28px;
+      width: 9px;
+      height: 9px;
+      border-radius: 50%;
+      background: #8a9b74;
+      box-shadow: 0 0 0 4px var(--background);
+    }
+
+    .timeline .date {
+      color: #6d826b;
+      font-size: 9px;
+      letter-spacing: 0.1em;
+    }
+
+    .timeline h3 {
+      margin: 7px 0 6px;
+      font-size: 23px;
+      letter-spacing: -0.02em;
+      line-height: 1.3;
+    }
+
+    .timeline p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.8;
+    }
+
+    /* Footer */
+
+    .site-footer {
+      border-top: 1px solid var(--border);
+      padding: 28px 0;
+    }
+
+    .footer-inner {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .site-footer p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 11px;
+    }
+
+    .footer-tagline {
+      font-family: var(--serif);
+      font-size: 16px !important;
+      color: var(--ink) !important;
+    }
+
+    /* Responsive layout */
+
+    @media (max-width: 1000px) {
+      .header-inner {
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 20px;
+      }
+
+      nav {
+        justify-content: flex-start;
+      }
+
+      .intro-grid,
+      .background-grid {
+        gap: 40px;
+      }
+
+      .contact-panel {
+        padding: 25px;
+      }
+    }
+
+    @media (max-width: 700px) {
+      .container {
+        width: calc(100% - 40px);
+      }
+
+      main {
+        padding: 45px 0;
+      }
+
+      nav {
+        gap: 10px 18px;
+      }
+
+      .intro-grid,
+      .background-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .intro-grid {
+        gap: 32px;
+      }
+
+      .lead {
+        font-size: 22px;
+      }
+
+      .background-grid {
+        gap: 44px;
+        margin-top: 40px;
+        padding-top: 32px;
+      }
+
+      .section-title {
+        font-size: 29px;
+      }
+
+      .footer-inner {
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 8px;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html {
+        scroll-behavior: auto;
+      }
+
+      * {
+        transition: none !important;
+      }
+    }
+  </style>
 </head>
+
 <body>
-  <header>
-    <h1>About Me</h1>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="research.html">Research</a>
-      <a href="teaching.html">Teaching</a>
-      <a href="blog.html">Blog</a>
-      <a href="news.html">News</a>
-      <a href="contact.html">Contact</a>
-      <a href="CV/CV_Berhanu_Sinshaw.pdf" target="_blank">CV</a>
-    </nav>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">
+        <span class="brand-mark" aria-hidden="true">b.</span>
+
+        <span>
+          <span class="brand-name">Berhanu G. Sinshaw</span>
+          <span class="brand-description">
+            Hydrology &amp; Water Resources
+          </span>
+        </span>
+      </a>
+
+      <nav aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="about.html" aria-current="page">About</a>
+        <a href="research.html">Research</a>
+        <a href="teaching.html">Teaching</a>
+        <a href="blog.html">Blog</a>
+        <a href="news.html">News</a>
+        <a href="contact.html">Contact</a>
+        <a
+          href="CV/CV_Berhanu_Sinshaw.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+        >CV ↗</a>
+      </nav>
+    </div>
   </header>
-  <main>
-    <p>I'm PhD Candidate & Graduate Research Assistant in Environmental Systems at the University of California, Merced. I work in the Forest Ecohydrology & Watershed Systems (FEWS) Lab, co-advised by Professor Safeeq Khan and Professor Joshua Viers. My expertise lies in integrated hydrological modeling, climate change impacts on water systems, and sustainable groundwater management in arid and semi-arid regions.</p>
 
-    <h3>Educational Background</h3>
-    <ul>
-      <li>PhD (2022–present), Environmental Systems: Concentration in Hydrology  and Water Resources Engineering, UC Merced</li>
-      <li>PhD Coursework (2022), Water Resources Engineering & Management, Bahir Dar University</li>
-      <li>MS (2018), Hydraulic and Water Resources Engineering, Bahir Dar University</li>
-      <li>BS (2014), Water Resources and Irrigation Management, Wollega University</li>
-    </ul>
+  <main id="main" class="container">
+    <section class="intro-grid" aria-labelledby="about-title">
+      <div>
+        <p class="eyebrow">About me</p>
 
-    <h3>Previous Experience</h3>
-    <ul>
-      <li>Bahir Dar University (2019–2022): Hydrological Data Collection Advisor for the PIRE Citizen Science Project</li>
-      <li>University of Gondar (2018–2022): Lecturer</li>
-      <li>University of Gondar (2016–2018): Assistant Lecturer </li>
-      <li>Dilla University (2015–2016): Assistant Lecturer</li>
-    </ul>
+        <h1 id="about-title">
+          From the Upper Blue Nile<br />
+          <em>to the Central Valley.</em>
+        </h1>
 
-    <h3>Contact Info</h3>
-    <p>Email: <a href="mailto:bsinshaw@ucmerced.edu">bsinshaw@ucmerced.edu</a><br>
-       Office: SRE 424-02, University of California, Merced</p>
+        <p class="lead">
+          My work is grounded in a simple question: how can a better
+          understanding of water lead to better decisions?
+        </p>
+
+        <p class="intro-copy">
+          I’m Berhanu Geremew Sinshaw, a Ph.D. candidate and Graduate
+          Research Assistant in Environmental Systems at the University
+          of California, Merced. I work in the Forest Ecohydrology &amp;
+          Watershed Systems (FEWS) Lab, co-advised by Professor Safeeq
+          Khan and Professor Joshua Viers.
+        </p>
+
+        <p class="intro-copy">
+          My expertise lies in integrated hydrological modeling,
+          climate change impacts on water systems, and sustainable
+          groundwater management in arid and semi-arid regions.
+        </p>
+      </div>
+
+      <aside class="contact-panel" aria-labelledby="contact-title">
+        <p class="eyebrow">Affiliation &amp; contact</p>
+
+        <h2 id="contact-title">
+          University of California, Merced
+        </h2>
+
+        <p class="affiliation">
+          Environmental Systems · FEWS Lab<br />
+          Hydrology &amp; Water Resources Engineering
+        </p>
+
+        <dl class="contact-details">
+          <div>
+            <dt>Email</dt>
+            <dd>
+              <a href="mailto:bsinshaw@ucmerced.edu">
+                bsinshaw@ucmerced.edu
+              </a>
+            </dd>
+          </div>
+
+          <div>
+            <dt>Office</dt>
+            <dd>
+              SRE 424-02<br />
+              University of California, Merced
+            </dd>
+          </div>
+        </dl>
+      </aside>
+    </section>
+
+    <div class="background-grid">
+      <section aria-labelledby="education-title">
+        <p class="section-label">Learning across water systems</p>
+
+        <h2 id="education-title" class="section-title">
+          Educational background
+        </h2>
+
+        <ol class="timeline">
+          <li>
+            <span class="date">2022 — PRESENT</span>
+            <h3>Ph.D. candidate, Environmental Systems</h3>
+            <p>
+              Concentration in Hydrology and Water Resources Engineering<br />
+              University of California, Merced
+            </p>
+          </li>
+
+          <li>
+            <span class="date">2022</span>
+            <h3>Ph.D. coursework</h3>
+            <p>
+              Water Resources Engineering &amp; Management<br />
+              Bahir Dar University
+            </p>
+          </li>
+
+          <li>
+            <span class="date">2018</span>
+            <h3>M.S., Hydraulic and Water Resources Engineering</h3>
+            <p>Bahir Dar University</p>
+          </li>
+
+          <li>
+            <span class="date">2014</span>
+            <h3>B.S., Water Resources and Irrigation Management</h3>
+            <p>Wollega University</p>
+          </li>
+        </ol>
+      </section>
+
+      <section aria-labelledby="experience-title">
+        <p class="section-label">Research, teaching &amp; field insight</p>
+
+        <h2 id="experience-title" class="section-title">
+          Previous experience
+        </h2>
+
+        <ol class="timeline">
+          <li>
+            <span class="date">2019 — 2022</span>
+            <h3>Hydrological Data Collection Advisor</h3>
+            <p>
+              PIRE Citizen Science Project<br />
+              Bahir Dar University
+            </p>
+          </li>
+
+          <li>
+            <span class="date">2018 — 2022</span>
+            <h3>Lecturer</h3>
+            <p>University of Gondar</p>
+          </li>
+
+          <li>
+            <span class="date">2016 — 2018</span>
+            <h3>Assistant Lecturer</h3>
+            <p>University of Gondar</p>
+          </li>
+
+          <li>
+            <span class="date">2015 — 2016</span>
+            <h3>Assistant Lecturer</h3>
+            <p>Dilla University</p>
+          </li>
+        </ol>
+      </section>
+    </div>
   </main>
-  <footer>
-    <p>© 2026 Berhanu G. Sinshaw</p>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p class="footer-tagline">
+        Hydrology, with the whole system in mind.
+      </p>
+
+      <p>© 2026 Berhanu G. Sinshaw</p>
+    </div>
   </footer>
 </body>
 </html>

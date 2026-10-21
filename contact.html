@@ -5,15 +5,273 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta
     name="description"
-    content="Contact Berhanu Sinshaw about opportunities in private consulting, government, and academia, or research collaborations."
+    content="Contact Berhanu Sinshaw about consulting, government and academic opportunities, or research collaborations."
   />
   <title>Contact – Berhanu Sinshaw</title>
-  <link rel="stylesheet" href="style.css" />
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    :root {
+      color-scheme: dark;
+      --background: #060c14;
+      --card: #0d1928;
+      --border: #213247;
+      --text: #e8eef7;
+      --muted: #9aaec5;
+      --accent: #45cec5;
+    }
+
+    body {
+      margin: 0;
+      background: var(--background);
+      color: var(--text);
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.7;
+    }
+
+    header {
+      padding: 35px 20px;
+      text-align: center;
+      background: var(--card);
+      border-bottom: 1px solid var(--border);
+    }
+
+    header h1 {
+      margin: 0 0 15px;
+      font-size: 32px;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 12px 24px;
+    }
+
+    nav a {
+      color: var(--text);
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    nav a:hover,
+    nav a[aria-current="page"] {
+      color: var(--accent);
+    }
+
+    main {
+      max-width: 1200px;
+      margin: auto;
+      padding: 55px 24px;
+    }
+
+    .intro {
+      max-width: 850px;
+      margin-bottom: 35px;
+    }
+
+    .intro h2 {
+      margin: 0 0 14px;
+      font-size: clamp(32px, 5vw, 46px);
+    }
+
+    .intro p {
+      margin: 0;
+      color: var(--muted);
+    }
+
+    .contact-layout {
+      display: grid;
+      grid-template-columns: 0.85fr 1.3fr;
+      align-items: start;
+      gap: 32px;
+    }
+
+    .contact-card,
+    .form-card {
+      padding: 36px;
+      border: 1px solid var(--border);
+      border-radius: 26px;
+      background: var(--card);
+    }
+
+    .contact-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 18px;
+      margin-bottom: 30px;
+    }
+
+    .contact-item:last-child {
+      margin-bottom: 0;
+    }
+
+    .icon {
+      display: grid;
+      place-items: center;
+      flex-shrink: 0;
+      width: 52px;
+      height: 52px;
+      border-radius: 17px;
+      background: linear-gradient(135deg, #3184d3, #45cec5);
+      color: white;
+      font-size: 23px;
+    }
+
+    .contact-label {
+      margin: 0 0 5px;
+      color: var(--muted);
+      font-size: 12px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+    }
+
+    .contact-value {
+      margin: 0;
+      font-size: 16px;
+      font-weight: 600;
+      overflow-wrap: anywhere;
+    }
+
+    .contact-value a {
+      color: var(--text);
+      text-decoration: none;
+    }
+
+    .contact-value a:hover {
+      color: var(--accent);
+      text-decoration: underline;
+    }
+
+    .project-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      padding-top: 24px;
+      border-top: 1px solid var(--border);
+    }
+
+    .project-links a {
+      padding: 8px 15px;
+      border: 1px solid var(--border);
+      border-radius: 25px;
+      color: var(--text);
+      text-decoration: none;
+      font-size: 14px;
+    }
+
+    .project-links a:hover {
+      border-color: var(--accent);
+      color: var(--accent);
+    }
+
+    .form-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+    }
+
+    .field {
+      margin-bottom: 20px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 8px;
+      color: var(--muted);
+      font-size: 15px;
+    }
+
+    input,
+    textarea {
+      width: 100%;
+      padding: 14px 16px;
+      border: 1px solid #253c58;
+      border-radius: 11px;
+      background: #050a11;
+      color: var(--text);
+      font: inherit;
+    }
+
+    textarea {
+      min-height: 155px;
+      resize: vertical;
+    }
+
+    input:focus,
+    textarea:focus {
+      outline: 2px solid var(--accent);
+      outline-offset: 3px;
+    }
+
+    .send-button {
+      width: 100%;
+      padding: 16px 24px;
+      border: 0;
+      border-radius: 40px;
+      background: linear-gradient(100deg, #3184d3, #45cec5);
+      color: #061321;
+      font-size: 18px;
+      font-weight: 700;
+      cursor: pointer;
+    }
+
+    .send-button:hover {
+      filter: brightness(1.1);
+    }
+
+    .send-button:focus-visible,
+    a:focus-visible {
+      outline: 2px solid var(--accent);
+      outline-offset: 5px;
+    }
+
+    .form-note {
+      margin: 14px 0 0;
+      color: var(--muted);
+      font-size: 13px;
+      text-align: center;
+    }
+
+    footer {
+      padding: 20px;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      text-align: center;
+      font-size: 14px;
+    }
+
+    @media (max-width: 800px) {
+      .contact-layout {
+        grid-template-columns: 1fr;
+      }
+
+      .contact-card,
+      .form-card {
+        padding: 26px;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .form-row {
+        grid-template-columns: 1fr;
+        gap: 0;
+      }
+
+      main {
+        padding: 35px 16px;
+      }
+    }
+  </style>
 </head>
 
 <body>
   <header>
-    <h1>Contact</h1>
+    <h1>Berhanu G. Sinshaw</h1>
+
     <nav aria-label="Main navigation">
       <a href="index.html">Home</a>
       <a href="about.html">About</a>
@@ -32,56 +290,156 @@
 
   <main>
     <section aria-labelledby="contact-title">
-      <h2 id="contact-title">Get in Touch</h2>
+      <div class="intro">
+        <h2 id="contact-title">Get in Touch</h2>
+        <p>
+          I am open to opportunities with private consulting firms,
+          government agencies, and academic institutions. Please get
+          in touch to discuss potential roles or research collaborations
+          in hydrology and water resources.
+        </p>
+      </div>
 
-      <p>
-        I am open to opportunities with private consulting firms,
-        government agencies, and academic institutions. If you are
-        interested in discussing potential roles or research
-        collaborations in hydrology and water resources,
-        please get in touch.
-      </p>
+      <div class="contact-layout">
+        <div class="contact-card">
+          <div class="contact-item">
+            <span class="icon" aria-hidden="true">✉</span>
+            <div>
+              <p class="contact-label">Email</p>
+              <p class="contact-value">
+                <a href="mailto:bsinshaw@ucmerced.edu">
+                  bsinshaw@ucmerced.edu
+                </a>
+              </p>
+            </div>
+          </div>
 
-      <p>
-        <a href="mailto:bsinshaw@ucmerced.edu" class="contact-button">
-          Contact Me
-        </a>
-      </p>
+          <div class="contact-item">
+            <span class="icon" aria-hidden="true">⌖</span>
+            <div>
+              <p class="contact-label">Office</p>
+              <p class="contact-value">
+                SRE 424-02<br />
+                University of California, Merced
+              </p>
+            </div>
+          </div>
 
-      <p>
-        <strong>Email:</strong>
-        <a href="mailto:bsinshaw@ucmerced.edu">
-          bsinshaw@ucmerced.edu
-        </a>
-      </p>
+          <div class="contact-item">
+            <span class="icon" aria-hidden="true">≈</span>
+            <div>
+              <p class="contact-label">Research &amp; Collaboration</p>
+              <p class="contact-value">
+                Hydrology &amp; Water Resources
+              </p>
+            </div>
+          </div>
 
-      <p>
-        <strong>Office:</strong>
-        SRE 424-02, University of California, Merced
-      </p>
+          <div class="project-links">
+            <a
+              href="https://ecohydrology.ucmerced.edu/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >FEWS Lab ↗</a>
 
-      <p>
-        <strong>Lab Website:</strong>
-        <a
-          href="https://ecohydrology.ucmerced.edu/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >FEWS Lab</a>
-      </p>
+            <a
+              href="https://securewaterfuture.net/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >Secure Water Future ↗</a>
+          </div>
+        </div>
 
-      <p>
-        <strong>Secure Water Future Project:</strong>
-        <a
-          href="https://securewaterfuture.net/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >securewaterfuture.net</a>
-      </p>
+        <div class="form-card">
+          <form id="contact-form">
+            <div class="form-row">
+              <div class="field">
+                <label for="name">Name</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  autocomplete="name"
+                  maxlength="120"
+                  required
+                />
+              </div>
+
+              <div class="field">
+                <label for="email">Email</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  autocomplete="email"
+                  required
+                />
+              </div>
+            </div>
+
+            <div class="field">
+              <label for="subject">Subject</label>
+              <input
+                type="text"
+                id="subject"
+                name="subject"
+                maxlength="200"
+                required
+              />
+            </div>
+
+            <div class="field">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="6"
+                required
+              ></textarea>
+            </div>
+
+            <button type="submit" class="send-button">
+              <span aria-hidden="true">➤</span> Open email draft
+            </button>
+
+            <p class="form-note">
+              Opens your email application. Send the draft there to
+              deliver your message.
+            </p>
+          </form>
+        </div>
+      </div>
     </section>
   </main>
 
   <footer>
-    <p>&copy; 2026 Berhanu Sinshaw</p>
+    <p>&copy; 2026 Berhanu G. Sinshaw</p>
   </footer>
+
+  <script>
+    document.getElementById("contact-form").addEventListener(
+      "submit",
+      function (event) {
+        event.preventDefault();
+
+        const name = document.getElementById("name").value.trim();
+        const email = document.getElementById("email").value.trim();
+        const subject = document.getElementById("subject").value.trim();
+        const message = document.getElementById("message").value.trim();
+
+        const body = [
+          "Name: " + name,
+          "Email: " + email,
+          "",
+          message
+        ].join("\n");
+
+        window.location.href =
+          "mailto:bsinshaw@ucmerced.edu" +
+          "?subject=" + encodeURIComponent(subject) +
+          "&body=" + encodeURIComponent(body);
+      }
+    );
+  </script>
 </body>
 </html>
